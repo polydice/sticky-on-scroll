@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+}
+#content {
+    height: 2000px;
+}
+#scrollCond {
+    border: 1px solid black;
+    font-size: 2em;
+    height: 2000px;
+}
+
+.prev-btn {
+    float: left;
+}
+.next-btn {
+    float: right;
+}
+.sticky-content {
+    background-color: rgba(200, 179, 141, 0.8);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sticky-operator {
+    background: rgba(200, 179, 141, 0.8);
+    display: inline-block;
+    text-decoration: none;
+    width: 10%;
+}
+
+#header-sticky {
+    display: inline-block;
+    height: auto;
+    left: 0;
+    min-height: 15px;
+    position: fixed;
+    text-align: center;
+    top: -40px;
+    width: 100%;
+}
+
+#header-sticky .sticky-content {
+    height: 40px;
+}
+
+#header-sticky .sticky-operator {
+    -webkit-box-shadow: 0 -1px 1px #ccc;
+    -moz-box-shadow: 0 -1px 1px #ccc;
+    box-shadow: 0 -1px 1px #ccc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#footer-sticky {
+    bottom: -215px;
+    display: inline-block;
+    height: 235px;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+#footer-sticky .sticky-content {
+    height: 210px;
+    padding: 50px 0;
+}
+
+#footer-sticky .sticky-operator {
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#footer-sticky .sticky-header h3{
+    background-color: rgba(200, 179, 141, 0.8);
+    margin: 0;
+}
+
